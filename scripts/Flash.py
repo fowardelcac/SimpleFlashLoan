@@ -35,4 +35,3 @@ def main():
     print("Contract balance", wmatic.balanceOf(contract.address))
     print("User balance:", wmatic.balanceOf(contract.owner()))
     print("ANIMENSE A PROCEDER")
-    print("You did it! View your tx here: " +
