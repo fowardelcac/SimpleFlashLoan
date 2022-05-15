@@ -3,7 +3,6 @@ from scripts.get_weth import *
 from brownie import Flash
 
 LOAN = 500000000000000000
-POLYGONSCAN_TX_URL = "https://polygonscan.com/tx/{}"
 
 
 def deployer(Aave, cta):
@@ -37,5 +36,3 @@ def main():
     print("User balance:", wmatic.balanceOf(contract.owner()))
     print("ANIMENSE A PROCEDER")
     print("You did it! View your tx here: " +
-          POLYGONSCAN_TX_URL.format(loan.txid))
-# 0x8587D4Ee73A2aD84C479fD7d8E86043AA153DD3E
